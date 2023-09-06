@@ -1,0 +1,4 @@
+vocode-api==0.0.19
+spacy
+django
+djangorestframework
