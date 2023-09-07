@@ -2,6 +2,21 @@ import re
 
 
 def parse_appointment_detail(conversation: str):
+    """
+        Extracts the doctor's name and appointment date and time from a conversation text.
+
+        Args:
+            conversation (str): The text of the conversation containing appointment details.
+
+        Returns:
+            Tuple[str, str]: A tuple containing the extracted doctor's name and appointment date/time.
+
+        Example:
+            conversation_text = "I have scheduled you for an appointment with Doctor Smith on September 19th at 10am."
+            doctor_name, appointment_date_time = parse_appointment_detail(conversation_text)
+            # doctor_name will be "Smith"
+            # appointment_date_time will be "September 19th at 10am"
+    """
     lines = conversation.split('\n')
 
     # Regular expression for matching the doctor's name
@@ -13,7 +28,7 @@ def parse_appointment_detail(conversation: str):
 
     doctor_name = ""
     appointment_date_time = ""
-    for line in reversed(lines):
+    for line in reversed(lines):  # Start from end to start line backwards and find the doctor name and date.
         if "HUMAN" in line:
             continue
         # Find the doctor's name

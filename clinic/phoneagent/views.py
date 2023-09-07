@@ -23,10 +23,14 @@ class VocodeWebhook(generics.CreateAPIView):
             call_id = request.data['call_id']
             call = vocode_client.calls.get_call(id=call_id)
             conversation = call.transcript
+
+            # Extract appointment detail.
             doctor_name, appointment_date_time = parse_appointment_detail(conversation)
+
+            # Send confirmation via text message.
             text_message = f"You are confirmed with Doctor {doctor_name} on {appointment_date_time}."
             to_number = call.from_number
             if to_number:
                 send_confirmation(to_number, text_message)
 
-        return Response(status=HTTP_200_OK, data={'message': "Webhook successful!"})
+        return Response(status=HTTP_200_OK, data={'message': "Webhook successful."})
