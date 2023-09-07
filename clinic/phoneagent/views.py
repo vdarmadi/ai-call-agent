@@ -13,9 +13,6 @@ class VocodeWebhook(generics.CreateAPIView):
     permission_classes = []  # Disable authentication
 
     def post(self, request, *args, **kwargs):
-        data = request.data
-        print(data)
-
         vocode_client = Vocode(
             token=settings.VOCODE_TOKEN
         )
