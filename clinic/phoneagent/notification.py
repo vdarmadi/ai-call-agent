@@ -7,8 +7,8 @@ def send_confirmation(to_number: str, body: str):
     auth_token = settings.TWILIO_AUTH_TOKEN
     client = Client(account_sid, auth_token)
     if to_number and "+" not in to_number:
-        to_number += "+"
-    message = client.messages.create(
+        to_number = "+" + to_number
+    client.messages.create(
         from_=settings.TWILIO_FROM_NUMBER,
         body=body,
         to=to_number
