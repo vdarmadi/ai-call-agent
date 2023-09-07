@@ -2,3 +2,4 @@ vocode-api==0.0.19
 spacy==3.6.1
 django==3.2.21
 djangorestframework==3.14.0
+twilio==8.7.0
