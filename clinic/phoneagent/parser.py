@@ -21,7 +21,6 @@ def parse_appointment_detail(conversation: str):
         if doctor_match and not doctor_name:
             doctor_name = doctor_match.group(1)
 
-
         # Find the date and time
         date_time_match = re.search(date_time_pattern, line)
         if date_time_match and not appointment_date_time:

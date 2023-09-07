@@ -13,5 +13,3 @@ def send_confirmation(to_number: str, body: str):
         body=body,
         to=to_number
     )
-
-    print(message.sid)

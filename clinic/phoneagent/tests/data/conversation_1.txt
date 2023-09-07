@@ -1,0 +1,53 @@
+BOT: Hello, thank you for calling. My name is Bella. How can I assist you today?
+HUMAN:  Allen to book an appointment.
+BOT: Thank you, Allen.
+BOT: May I please have your date of birth?
+HUMAN:  My date of birth is April seventeenth nineteen seventy seven.
+BOT: Thank you, Allen.
+BOT: Could you please provide me with your insurance information?
+HUMAN:  Eight.
+BOT: I apologize for the confusion.
+BOT: Could you please provide me with the name of your insurance payer and the ID number?
+HUMAN:  My payer name is Kiders, and my payer ID is five four one three zero five.
+BOT: Thank you, Allen.
+BOT: Do you have a referral for your visit?
+BOT: If so, could you please provide me with the name of the referring provider?
+HUMAN:  Yeah. My referral is that doctor
+BOT: I apologize, but I didn't catch the name of the doctor you are referring to.
+BOT: Could you please provide me with the name of the referring provider?
+HUMAN:  It's doctor Mike Kemp g
+BOT: Thank you, Allen.
+BOT: Now, could you please let me know the reason for your visit or your chief medical complaint?
+HUMAN:  Yeah. I have Blue,
+BOT: I apologize for any misunderstanding, but could you please provide me with more information about your chief medical complaint or reason for your visit?
+HUMAN:  Yeah. I want to do Physical, regular checkup,
+BOT: Thank you for providing that information, Allen.
+BOT: Now, may I please have your address for our records?
+HUMAN:  Yeah. It's one four seven
+BOT: </-
+HUMAN:  College Avenue.
+BOT: Thank you, Allen.
+BOT: Now, may I please have your contact information?
+HUMAN:  Yeah. My number is five two one five five five four one three three.
+BOT: Thank you, Allen, for providing your contact information.
+BOT: I have noted it down.
+BOT: Now, let me offer you the available providers and times for your appointment.
+BOT: For providers, we have Doctor Alexander, Doctor George, and Doctor Bill.
+BOT: And for appointment times, we have September 19th at 10am, September 26th at 11am, or October 3rd at 2pm.
+BOT: Which provider and time would you like to choose?
+HUMAN:  I would like to choose doctor Bill,
+BOT: Thank you for choosing Doctor Bill, Allen.
+BOT: Now, which appointment time would you prefer: September 19th at 10am, September 26th at 11am, or October 3rd at 2pm?
+HUMAN:  October third at two PM.
+BOT: Thank you for choosing October 3rd at 2pm with Doctor Bill, Allen.
+BOT: I have successfully booked your appointment.
+BOT: Is there anything else I can assist you with?
+HUMAN:  So thank you.
+BOT: You're welcome, Allen!
+BOT: If you have any further questions or need assistance in the future, feel free to reach out.
+BOT: Have a great day!
+HUMAN:  You too.
+BOT: -
+HUMAN:  Bye bye. Bye bye.
+BOT: Goodbye, Allen!
+BOT: Take care and have a wonderful day.
