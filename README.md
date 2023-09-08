@@ -13,7 +13,12 @@
    1. a script to configure Vocode AI agent for the first time.
    2. run this using `python vocode_config.py`
 3. `ai-call-agent/clinic/*` and `ai-call-agent/manage.py`
-   1. This is a Django web project containing 1 webhook API endpoint to be called by Vocode.
-   2. run server by executing `python manage.py runserver` on the root dir.
+   1. this is a Django web project containing 1 webhook API endpoint to be called by Vocode.
+   2. the entry point for the API endpoint is `ai-call-agent/clinic/phoneagent/views.py`
+   3. `ai-call-agent/clinic/phoneagent/parser.py` contains parser logic for doctor name and appointment time extraction.
+   4. `ai-call-agent/clinic/phoneagent/notification.py` is the module to send sms notication via Twilio.
+   5. `ai-call-agent/clinic/urls.py` contains endpoint paths configuration.
+   6. `ai-call-agent/clinic/settings.py` contains parameters and env variables.
+   7. run server by executing `python manage.py runserver` on the root dir.
 
 
